@@ -1,0 +1,54 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Macbook Air",
+            "year": 2016
+        },
+        {
+            "id": 3,
+            "model": "Samsung Lap-Top 3000",
+            "year": 2011
+        },
+        {
+            "id": 4,
+            "model": "Lhäpptopp",
+            "year": 2018
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "age": 30,
+            "computerId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Rainnu",
+            "lastName": "Wilsonu",
+            "age": 35,
+            "computerId": 3
+        },
+        {
+            "id": 3,
+            "firstName": "鵬",
+            "lastName": "賈",
+            "age": 26,
+            "computerId": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Jorge",
+            "lastName": "Ben",
+            "age": 60,
+            "computerId": 4
+        }
+    ]
+}
