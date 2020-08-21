@@ -27,28 +27,50 @@
             "firstName": "Rainu",
             "lastName": "Ittycheriah",
             "age": 30,
-            "computerId": 1
+            "computerId": 1,
+            "departmentId": 3
         },
         {
             "id": 2,
             "firstName": "Rainnu",
             "lastName": "Wilsonu",
             "age": 35,
-            "computerId": 3
+            "computerId": 3,
+            "departmentId": 2
         },
         {
             "id": 3,
             "firstName": "鵬",
             "lastName": "賈",
             "age": 26,
-            "computerId": 2
+            "computerId": 2,
+            "departmentId": 4
         },
         {
             "id": 4,
             "firstName": "Jorge",
             "lastName": "Ben",
             "age": 60,
-            "computerId": 4
+            "computerId": 4,
+            "departmentId": 1
         }
+    ],
+    "departments": [
+      {
+        "id": 1,
+        "name": "Accountancy"
+      },
+      {
+        "id": 2,
+        "name": "Sales"
+      },
+      {
+        "id": 3,
+        "name": "Quality Assurance"
+      },
+      {
+        "id": 4,
+        "name": "Cyber-Coding / E-Programming"
+      }
     ]
 }
