@@ -1,5 +1,5 @@
 export const Employee = employee => {
-  const { id, firstName, lastName, age } = employee;
+  const { id, firstName, lastName, age, computer } = employee;
 
   return `
     <section id="employee--${id}" class="employee card">
@@ -10,6 +10,10 @@ export const Employee = employee => {
         <p class="employee__age">
           ${age}
         </p>
+      </div>
+      <div class="card__content-group">
+        <p class="card__label">Computer</p>
+        <p class="computer__info">${computer.model} (${computer.year})</p>
       </div>
     </section>
   `;
