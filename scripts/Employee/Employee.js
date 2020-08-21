@@ -1,5 +1,5 @@
 export const Employee = employee => {
-  const { id, firstName, lastName, age, computer, department, location } = employee;
+  const { id, firstName, lastName, age, computer, department, location, customers } = employee;
 
   return `
     <section id="employee--${id}" class="employee card">
@@ -22,6 +22,12 @@ export const Employee = employee => {
       <div class="card__content-group">
         <p class="card__label">Location</p>
         <p class="location__info">${location.name}</p>
+      </div>
+      <div class="card__content-group">
+        <p class="card__label">Customers</p>
+        <ul class="customer-list">
+          ${ customers.map(customer => `<li class="customer">${customer.name}</li>`).join('') }
+        </ul>
       </div>
     </section>
   `;
