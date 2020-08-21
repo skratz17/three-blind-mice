@@ -28,6 +28,7 @@
             "lastName": "Ittycheriah",
             "age": 30,
             "computerId": 1,
+            "locationId": 1,
             "departmentId": 3
         },
         {
@@ -36,6 +37,7 @@
             "lastName": "Wilsonu",
             "age": 35,
             "computerId": 3,
+            "locationId": 3,
             "departmentId": 2
         },
         {
@@ -44,6 +46,7 @@
             "lastName": "賈",
             "age": 26,
             "computerId": 2,
+            "locationId": 2,
             "departmentId": 4
         },
         {
@@ -52,6 +55,7 @@
             "lastName": "Ben",
             "age": 60,
             "computerId": 4,
+            "locationId": 1,
             "departmentId": 1
         }
     ],
@@ -71,6 +75,20 @@
       {
         "id": 4,
         "name": "Cyber-Coding / E-Programming"
+      }
+    ],
+    "locations": [
+      {
+        "id": 1,
+        "name": "台北"
+      },
+      {
+        "id": 2,
+        "name": "Nashville"
+      },
+      {
+        "id": 3,
+        "name": "Atlanta"
       }
     ]
 }
